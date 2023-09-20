@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
-import './categori.css'
+import "./categori.css";
 
 const Categori = ({ categori }) => {
   return (
     <div className="">
       <NavLink to={`/categori/${categori.strCategory}`}>
-      <button className="btn bg-slate-700">
+        <button className="btn bg-slate-700">
           <span className="-mr-1">
             <img src={categori.strCategoryThumb} alt="" className="w-10" />
           </span>

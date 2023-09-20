@@ -21,14 +21,14 @@ const Meal = ({ mealDetails }) => {
   return (
     <div>
       <div className="card lg:card-side bg-base-100 shadow-xl max-w-6xl mx-auto my-10">
-        <div className="px-5 pt-10 w-1/3">
+        <div className="px-5 pt-10 md:w-1/3">
           <img
             src={strMealThumb}
             alt="Album"
             className=" rounded-xl "
           />
         </div>
-        <div className="card-body w-2/3">
+        <div className="card-body md:w-2/3">
           <h2 className="card-title text-3xl text-indigo-500">{strMeal}</h2>
           <hr />
           <p><p className="text-lg font-semibold text-red-600">Food Details :</p>{strInstructions}</p>

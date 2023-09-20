@@ -13,7 +13,7 @@ const Categoris = () => {
   }, []);
   
   return (
-    <div className="w-2/3 mx-auto mt-10">
+    <div className="md:w-2/3 mx-auto mt-10">
         <div className="flex flex-wrap gap-2 justify-center">
             {
                 categoris.map((categori, idx) => <Categori key={idx} categori={categori}></Categori>)
